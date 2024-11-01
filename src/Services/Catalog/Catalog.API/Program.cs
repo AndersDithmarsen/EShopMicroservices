@@ -38,6 +38,7 @@ app.MapCarter();
 
 app.UseExceptionHandler(options => { });
 
+// Write as json response
 app.UseHealthChecks("/health", 
     new HealthCheckOptions
     {
