@@ -1,7 +1,4 @@
 ﻿using Discount.Grpc;
-using JasperFx.Core;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
-using System.Threading;
 
 namespace Basket.API.Basket.StoreBasket;
 
